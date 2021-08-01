@@ -1,0 +1,200 @@
+/*co-setting*/
+html{
+  font-size: 100%;
+}
+body{
+  line-height: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #000000;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+/*header*/
+h1{
+  margin:2rem 0 2rem 0;
+  list-style: none;
+  color: black;
+}
+h1 a{
+    color: #000000;
+  }
+
+header{
+    border-bottom: solid 1px #c0c0c0;
+    margin-top: 34px;
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+
+/*nav*/
+.left-nav{
+    display: flex;
+    padding-left: 4rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 0.8rem;
+    }
+    .right-nav{
+        display: flex;
+        padding-right: 4rem;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        list-style: none;
+        font-size: 0.8rem;
+        }
+  .right-nav li{
+    margin-left: 20px;
+  }
+.left-nav li{
+  margin-left: 20px;
+}
+  .right-nav a{
+    color: #000000;
+  }
+  .left-nav a{
+    color: #000000;
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+    }
+
+
+/*コンテンツ*/
+.goodspage{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    }
+h2{
+  border-top : solid 1px #c0c0c0;
+  border-bottom: solid 1px #c0c0c0;
+ padding: 10px;
+ font-size: 1rem;
+ text-align: left;
+}
+.main{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-right: 2rem;
+}
+img.bigpic{
+  width: 2100px;
+  height: auto;
+}
+    }
+
+/*detail css*/
+.detail{
+  max-width: 100%;
+  padding-left: 2rem;
+}
+.detail p{
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+}
+
+/*注文表numitems*/
+.numitems {
+ width: 100%;
+ text-align: center;
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin: 2rem auto;
+}
+.numitems th {
+ padding: 4px 8px;
+ border-bottom: solid 1px #dcdcdc;
+}
+.numitems td {
+ padding: 4px 8px;
+ border-bottom: solid 1px #dcdcdc;
+}
+
+/*注文ボタン*/
+.button{
+  width: 100%;
+  padding: 0.5em 1em;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: solid 1px #606060;
+  background: #606060;
+}
+.button a{
+  color: white;
+}
+
+/*サイズ表size*/
+
+.size {
+ width: 100%;
+ text-align: center;
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin: 2rem auto;
+}
+.size th {
+ padding: 4px 8px;
+ background: #f5f5f5;
+ border: solid 1px #dcdcdc;
+}
+.size td {
+ padding: 4px 8px;
+ border: solid 1px #dcdcdc;
+}
+.iro{
+   background: #f5f5f5;
+}
+/*footer*/
+footer{
+    text-align: center;
+    padding: 26px 0;
+}
+/*スマホ*/
+@media (max-width:600px){
+  .page-title{
+    font-size: 2.5rem;
+  }
+  header{
+    align-items: center;
+  }
+  .nav{
+      display: flex;
+      max-width: 100%;
+      padding-bottom: 1rem;
+    }
+  .left-nav{
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .right-nav{
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .goodspage{
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 2rem;
+    display: flex;
+   }
+   .main{
+     padding: 0 0;
+   }
+   .detail{
+     padding: 1rem 1rem;
+   }
+}
